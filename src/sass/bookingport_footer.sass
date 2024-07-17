@@ -1,0 +1,37 @@
+footer
+  margin-top: auto
+  background: $linearGradientPink
+  @media screen and (min-width: 700px)
+    padding: 20px 0
+
+  .wrapper
+    display: flex
+    flex-direction: column
+    gap: 50px
+    @media (min-width: 700px)
+      flex-direction: row-reverse
+      justify-content: space-between
+      align-items: center
+
+    .footer-top
+      ul
+        margin-top: 60px
+        list-style-type: none
+        display: flex
+        flex-direction: column
+        gap: 10px
+        padding-left: 0
+        @media screen and (min-width: 700px)
+          flex-direction: row
+          margin: 0
+          gap: 20px
+
+    .footer-mid
+      img
+        width: 180px
+        height: 64px
+        object-fit: cover
+
+      p
+        @media screen and (min-width: 700px)
+          display: none

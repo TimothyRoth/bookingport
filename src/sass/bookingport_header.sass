@@ -1,0 +1,132 @@
+header
+  position: relative
+
+  .video-background-wrapper
+    height: 495px
+    @media screen and (min-width: 1200px)
+      height: 800px
+
+    video
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+  .burger-menu
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    border-radius: 100%
+    background: $pink
+    box-shadow: $boxShadow
+    position: fixed
+    top: 20px
+    right: 20px
+    width: 50px
+    height: 50px
+    cursor: pointer
+    overflow: hidden
+    z-index: 3
+
+    &.active
+      .stripe-mid
+        position: relative
+        left: -100%
+        opacity: 0
+
+      .stripe-top
+        rotate: 45deg
+        position: relative
+        top: 7.5px
+
+      .stripe-bottom
+        rotate: -45deg
+        position: relative
+        bottom: 7.5px
+
+    .stripe
+      width: 25px
+      height: 2px
+      background: #ffffff
+      margin: 2.5px 0
+      transition: .3s ease-in-out
+
+  .header-content-container
+    background-color: rgba(255, 255, 255, 0.9)
+    padding: 8px
+    border-bottom-left-radius: 25px
+    border-bottom-right-radius: 25px
+    box-shadow: 0 3px 36px #00000029
+
+    &.frontpage-container
+      position: absolute
+      top: 0
+      z-index: 1
+
+    .logo-wrapper
+      padding: 0 20px
+
+      a.custom-logo-link
+        img
+          width: 142px
+          height: 80px
+          object-fit: cover
+          @media screen and (min-width: 900px)
+            width: 250px
+            height: 150px
+
+      .event-date
+        position: relative
+        left: 14px
+        font-size: 15px
+        font-weight: bold
+        color: $blue
+        text-align: center
+        @media screen and (min-width: 900px)
+          font-size: 18px
+          margin-top: 10px
+
+  nav
+    display: flex
+    align-items: center
+    gap: 15px
+    @media screen and (min-width: 1300px)
+      gap: 50px
+    @media screen and (min-width: 1680px)
+      gap: 90px
+
+    &.frontpage-container
+      position: unset
+
+    .nav-menu
+      background: $linearGradientPink
+      width: 100vw
+      height: 100vh
+      position: fixed
+      z-index: 2
+      top: 0
+      right: 0
+      transform: translateX(100%)
+
+      &:after
+        content: ""
+        width: 190px
+        height: 115px
+        background: url("/assets/images/schwein.svg")
+        background-size: cover
+        bottom: 35px
+        right: 35px
+        position: absolute
+
+      @media screen and (min-width: 700px)
+        width: 50vw
+      @media screen and (min-width: 1300px)
+        width: 30vw
+
+      &.active
+        display: block
+        transform: translateX(0)
+
+      &.privat
+        #menu-item-447
+          display: none

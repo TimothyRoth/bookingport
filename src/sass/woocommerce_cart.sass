@@ -1,0 +1,255 @@
+.woocommerce-cart, .woocommerce-checkout
+  background: linear-gradient(171deg, #343E6F, #161B38) no-repeat, #161B38
+  background-attachment: fixed
+
+  #billing_state_field
+    display: none !important
+
+  .col-2, .col-1
+    width: unset !important
+
+  .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce-page .col2-set .col-2
+    width: 100% !important
+    max-width: 1000px !important
+
+  label[for="wc-woocommerce_payments-new-payment-method"]
+    color: #FFFFFF !important
+
+  .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details
+    li
+      margin-right: 0 !important
+      line-height: unset !important
+      border-right: unset !important
+      float: unset !important
+
+  .woocommerce-order:first-of-type
+    p
+      &:nth-of-type(2):not(.woocommerce-customer-details--email)
+        border: 1px solid #F59AA8
+        border-radius: 20px
+        padding: 20px
+        max-width: 1000px
+
+  .form-row.place-order
+    max-width: 1000px
+
+  .wc-ppcp-cart-payment__methods
+    display: none
+
+  .product-remove
+    display: flex
+
+  .woocommerce
+    padding-bottom: 50px
+
+  .woocommerce-privacy-policy-text
+    display: none
+
+  button[name="woocommerce_checkout_place_order"]
+    color: #FFFFFF !important
+    font-size: 16px !important
+    background: $pink !important
+    border: 1px solid $pink !important
+    padding: 14px 26px !important
+    width: max-content !important
+    text-align: center !important
+    cursor: pointer !important
+    border-radius: 40px !important
+
+    &:hover
+      @media screen and (min-width: 1300px)
+        color: $pink !important
+        background: #FFFFFF !important
+
+  .woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox
+    a
+      text-decoration: underline
+
+    .required
+      color: #FFFFFF !important
+
+  #payment
+    background: transparent !important
+
+    ul
+      max-width: 1000px
+
+      li.wc_payment_method
+        & > div.payment_box
+          background: transparent !important
+          color: #F59AA8 !important
+          border: 1px solid #F59AA8 !important
+          box-shadow: 0 0 56px #00000029 !important
+          border-radius: 20px !important
+
+          &:before
+            display: none !important
+
+          fieldset
+            border: none !important
+            font-family: $font !important
+
+  .TermsText
+    color: #FFFFFF !important
+
+  form
+    p
+      input[type="checkbox"]
+        width: 22px
+        height: 22px
+        border-radius: 4px
+        margin: 0
+
+      input[type="text"], input[type="tel"], input[type="email"]
+        width: 100%
+        padding: 18px 24px
+        font-size: 14px
+        color: #707070
+        background: #FFFFFF
+        font-family: $font
+        border: none
+        border-radius: 28px
+
+  h3
+    font-size: 18px
+    font-weight: 400
+    text-transform: unset
+    @media screen and (min-width: 900px)
+      font-size: 25px
+
+  .remarks-container, .woocommerce-additional-fields__field-wrapper
+    p
+      font-size: 14px
+      color: #F59AA8
+      margin-bottom: 10px
+      @media screen and (min-width: 700px)
+        font-size: 16px
+
+    textarea
+      width: 100%
+      max-width: 1000px
+      border-radius: 28px
+      min-height: 189px
+      color: #707070
+      font-family: $font
+      padding: 20px
+      font-size: 14px
+      @media screen and (min-width: 700px)
+        font-size: 16px
+
+  .product-remove
+    .remove
+      color: #FFFFFF !important
+
+      &:hover
+        background: transparent !important
+
+  .restore-item
+    display: none !important
+
+  .checkout-button
+    margin-top: 25px !important
+    color: #FFFFFF !important
+    font-size: 16px !important
+    font-weight: 400 !important
+    background: linear-gradient(102deg, #F59AA8, #DC7988) !important
+    border: 1px solid $pink !important
+    padding: 14px 26px !important
+    width: max-content !important
+    text-align: center !important
+    cursor: pointer !important
+    border-radius: 40px !important
+
+    &:hover
+      @media screen and (min-width: 1300px)
+        background: linear-gradient(102deg, #DC7988, #F59AA8) !important
+
+  .shop_table_responsive
+    font-size: 14px !important
+    max-width: 1000px
+    border: none !important
+    background: linear-gradient(141deg, #343E6F, #DC7988)
+    padding: 25px !important
+    border-radius: 20px !important
+    @media screen and (min-width: 500px)
+      font-size: 16px !important
+
+    td
+      background: transparent !important
+      border-top: none !important
+
+      a:not(.remove)
+        display: none
+
+    th
+      border-top: none !important
+
+  .woocommerce-checkout-review-order-table, .woocommerce-table--order-details, .woocommerce-order-overview
+    padding-left: 0
+    font-size: 14px !important
+    border: none !important
+    max-width: 1000px
+    @media screen and (min-width: 500px)
+      font-size: 16px !important
+      background: linear-gradient(141deg, #343E6F, #DC7988)
+      padding: 25px !important
+      border-radius: 20px !important
+
+    td
+      background: transparent !important
+      border-top: none !important
+
+      a:not(.remove)
+        display: none
+
+    .wc-item-meta
+      padding-left: 0
+
+    th
+      border-top: none !important
+
+  #customer_details
+    display: flex
+    flex-direction: column
+
+    .woocommerce-additional-fields
+      label
+        font-size: 14px
+        color: #F59AA8
+        margin-bottom: 10px
+        @media screen and (min-width: 700px)
+          font-size: 16px
+
+      .optional
+        display: none !important
+
+  .wc-proceed-to-checkout
+    display: flex
+    flex-direction: column
+    gap: 10px
+    padding-bottom: 50px
+
+  .cart-collaterals
+    .cart_totals
+      float: unset !important
+      width: unset !important
+
+      table
+        max-width: 1000px
+        background: transparent !important
+        border: 1px solid #FFFFFF !important
+
+        th
+          width: 100%
+
+        bdi
+          @media screen and (min-width: 500px)
+            position: relative
+            right: 80px
+
+        .tax-rate
+          td
+            .amount
+              @media screen and (min-width: 500px)
+                position: relative
+                right: 80px

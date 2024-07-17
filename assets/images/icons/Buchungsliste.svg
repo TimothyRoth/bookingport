@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.352" height="19.985" viewBox="0 0 16.352 19.985">
+  <g id="Icon_feather-file-text" data-name="Icon feather-file-text" transform="translate(-4.5 -1.5)">
+    <path id="Pfad_32" data-name="Pfad 32" d="M7.225,1.5h7.267a.908.908,0,0,1,.642.266l5.451,5.451a.908.908,0,0,1,.266.642v10.9a2.728,2.728,0,0,1-2.725,2.725H7.225A2.728,2.728,0,0,1,4.5,18.76V4.225A2.728,2.728,0,0,1,7.225,1.5Zm6.891,1.817H7.225a.909.909,0,0,0-.908.908V18.76a.909.909,0,0,0,.908.908h10.9a.909.909,0,0,0,.908-.908V8.235Z" fill="#f59aa8"/>
+    <path id="Pfad_33" data-name="Pfad 33" d="M25.859,8.767H20.408a.908.908,0,0,1-.908-.908V2.408a.908.908,0,0,1,1.817,0V6.951h4.542a.908.908,0,1,1,0,1.817Z" transform="translate(-5.916)" fill="#f59aa8"/>
+    <path id="Pfad_34" data-name="Pfad 34" d="M18.676,19.817H11.408a.908.908,0,1,1,0-1.817h7.267a.908.908,0,1,1,0,1.817Z" transform="translate(-2.366 -6.507)" fill="#f59aa8"/>
+    <path id="Pfad_35" data-name="Pfad 35" d="M18.676,25.817H11.408a.908.908,0,0,1,0-1.817h7.267a.908.908,0,0,1,0,1.817Z" transform="translate(-2.366 -8.874)" fill="#f59aa8"/>
+    <path id="Pfad_36" data-name="Pfad 36" d="M13.225,13.817H11.408a.908.908,0,1,1,0-1.817h1.817a.908.908,0,1,1,0,1.817Z" transform="translate(-2.366 -4.141)" fill="#f59aa8"/>
+  </g>
+</svg>

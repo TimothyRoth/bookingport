@@ -1,0 +1,42 @@
+.woocommerce-account
+  background: linear-gradient(172deg, #343E6F, #161B38) no-repeat, #161B38
+  background-attachment: fixed
+  main
+    .woocommerce-MyAccount-content
+      width: unset!important
+      float: unset!important
+      form
+        max-width: 500px
+        &:not(form:last-of-type)
+          padding-bottom: 50px
+          margin-bottom: 50px
+          border-bottom: 2px solid rgba(245, 154, 168, 0.6)
+          .button-row
+            margin-bottom: 0
+        h3
+          font-size: 18px
+          font-weight: 400
+          text-transform: unset
+        p
+          display: flex
+          flex-direction: column
+          gap: 10px
+          label
+            font-size: 14px
+            color: #F59AA8
+            @media screen and (min-width: 900px)
+              font-size: 16px
+        .row
+          display: flex
+          justify-content: space-between
+          max-width: 500px
+          .user-postal-code
+            width: calc(30% - 10px)
+          .user-city
+            width: calc(70% - 10px)
+        .button-row
+          align-items: center
+          .btn-primary
+            margin: unset
+          .btn-secondary
+            text-decoration: none

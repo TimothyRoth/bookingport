@@ -1,0 +1,554 @@
+Standname,Standstatus,Kunde,Pavillon,Rechnungsnummer,Rechnungsbetrag,Standbreite,"Notizen vom Kunden",Bezahlstatus
+"Brünebrede 1, B3",Verkauft,"Tim Schlautmann (Privat)",Nein,1679,20€,,"Hallo &lt;3","bezahlung ausstehend"
+"Brünebrede 1, B1",Verkauft,"Timothy Roth (Verein)",Nein,1692,39€,,,"bezahlung ausstehend"
+"Brünebrede 1, B5",Verkauft,"Timothy Roth (Verein)",Nein,1692,39€,,,"bezahlung ausstehend"
+"Brünebrede 1, B7",Verkauft,"Timothy Roth (Verein)",Nein,1692,39€,,,"bezahlung ausstehend"
+"Brünebrede 1, B9",Verkauft,"Timothy Roth (Verein)",Ja,1694,30€,,,"bezahlung ausstehend"
+"Brünebrede 1, B11",Verkauft,"Timothy Roth (Verein)",Ja,1694,30€,,,"bezahlung ausstehend"
+"Brünebrede 1, B13",Verkauft,"Tim Schlautmann (Privat)",Nein,1695,20€,3,,"bezahlung ausstehend"
+"Brünebrede 1, B15",Verkauft,"Tim Schlautmann (Privat)",Nein,1695,20€,3,,"bezahlung ausstehend"
+"Brünebrede 3, B17",Verkauft,"Timothy Roth (Verein)",Ja,1697,30€,3m,"Hallo Digga",bezahlt
+"Brünebrede 3, B19",Verkauft,"Timothy Roth (Verein)",Ja,1697,30€,3m,"Hallo Digga",bezahlt
+"Brünebrede 5, B21",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 5, B23",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 5, B25",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 5, B27",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 7, B29",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 9, B31",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 9a, B33",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 11, B35",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 11, B37",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 15, B39",Verkauft,"Timothy Roth (Verein)",Ja,1697,30€,3m,"Hallo Digga",bezahlt
+"Brünebrede 15, B41",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 15, B43",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 17, B45",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 17, B47",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 19, B49",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 19, B51",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 21, B53",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 21, B55",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 21, B57",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 23/23a, B59",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 23/23a, B61",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 23/23a, B63",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 23/23a, B65",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 23/23a, B67",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 25, B69",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 27, B71",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 27, B73",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 29, B75",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 29, B77",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 29, B79",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 31, B81",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 31, B83",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 33, B85",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 33, B87",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 33, B89",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 37, B91",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 37, B93",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 37, B95",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 37, B97",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 37, B99",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 37, B101",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 39, B103",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 39, B105",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 41, B107",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 43, B109",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 43, B111",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 45, B113",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 45, B115",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 45, B117",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 47, B119",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 47, B121",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 49, B123",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 49, B125",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 49, B127",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 51, B129",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 51, B131",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 55, B133",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 57, B135",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 59, B137",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 2, B2",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 2, B4",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 2, B6",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 2, B8",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 2, B10",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 2, B12",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 4, B14",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 4, B16",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 4, B18",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 4, B20",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 4, B22",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 10, B24",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 10, B26",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 14, B28",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 14, B30",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 16, B32",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 16, B34",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 20, B36",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 20, B38",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 22, B40",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 24, B42",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 24, B44",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 24, B46",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 24, B48",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 24, B50",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 26, B52",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 26, B54",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 26, B56",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 28, B58",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 28, B60",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 28, B62",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 28, B64",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 30/32, B66",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 30/32, B68",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 30/32, B70",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 30/32, B72",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 30/32, B74",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 36, B76",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 36, B78",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 38, B80",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 38, B82",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 38, B84",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 46, B86",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 48, B88",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 48, B90",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 48, B92",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 54, B94",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 54, B96",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 54, B98",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 56, B100",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 56, B102",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 58, B104",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 58, B106",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 64, B108",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 64, B110",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 64, B112",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 64, B114",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 66, B116",Frei,"Kein Kunde",-,-,-,-,-,-
+"Brünebrede 66, B118",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 1, E1",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 1, E3",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 1, E5",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 3-5, E7",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 3-5, E9",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 3-5, E11",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 3-5, E13",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 7, E15",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 11, 0",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 11, 0",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 11, 0",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 13, 0",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 15, 0",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 15, 0",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 17, E29",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 17, E31",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 17, E33",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 17, E35",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 19, E37",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 19, E39",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 21, E41",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 21, E43",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 21, E45",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 4, E2",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 6, E4",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 6, E6",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 8, E8",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 8, E10",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 10, E12",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 10, E14",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 12, E16",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 12, E18",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 14, E20",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 14, E22",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 14, E24",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 16, E26",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 16, E28",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 18, E30",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 18, E32",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 20, E34",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 20, E36",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 22, E38",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 22, E40",Frei,"Kein Kunde",-,-,-,-,-,-
+"Emsstraße 22, E42",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 40, F1",Verkauft,"Tim Schlautmann (Privat)",Nein,1684,20€,,123,bezahlt
+"Freckenhorster Straße 40, F3",Verkauft,"Tim Schlautmann (Privat)",Nein,1684,20€,,123,bezahlt
+"Freckenhorster Straße 40, F5",Verkauft,"Tim Schlautmann (Privat)",Nein,1684,20€,,123,bezahlt
+"Freckenhorster Straße 40, F7",Verkauft,"Tim Schlautmann (Privat)",Nein,1684,20€,,123,bezahlt
+"Freckenhorster Straße 38, F9",Verkauft,"Tim Schlautmann (Privat)",Nein,1684,20€,,123,bezahlt
+"Freckenhorster Straße 38, F11",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 36, F13",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 36, F15",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 36, F17",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 34, F19",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 32, F21",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 32, F23",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 32, F25",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 32, F27",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 28, F29",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 26, F31",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 24, F33",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 24, F35",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 24, F37",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 22, F39",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 22, F41",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 20, 0",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 20, F45",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 18, F47",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 18, F49",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 14, F51",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 12, F53",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 10, F55",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 8, F57",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 6, F59",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 6, F61",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 6-2, F63",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 6-2, F65",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 6-2, F67",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 6-2, F69",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 6-2, F71",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 35, F2",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 35, F4",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 35, F6",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 33, F8",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 33, F10",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 31, F12",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 31, F14",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 31, F16",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 29, F18",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 29, F20",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 29, F22",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 25, F24",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 25, F26",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 25, F28",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 25, F30",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 25, F32",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 25, F34",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 25, F36",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 25, F38",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 25, F40",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 13, F42",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 13, F44",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 13, F46",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 13, F48",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 11, F50",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 11, F52",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 9, F54",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 7, F56",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 5, F58",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 3, F60",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 1, F62",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 1, F64",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 1, F66",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 1, F68",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 1, F70",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 1, F72",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 1, F74",Frei,"Kein Kunde",-,-,-,-,-,-
+"Freckenhorster Straße 1, F76",Frei,"Kein Kunde",-,-,-,-,-,-
+"Heumarkt 1, H1",Frei,"Kein Kunde",-,-,-,-,-,-
+"Heumarkt 1, H3",Frei,"Kein Kunde",-,-,-,-,-,-
+"Heumarkt 1, H5",Frei,"Kein Kunde",-,-,-,-,-,-
+"Heumarkt 3, H7",Frei,"Kein Kunde",-,-,-,-,-,-
+"Heumarkt 3, H9",Frei,"Kein Kunde",-,-,-,-,-,-
+"Heumarkt 3, H11",Frei,"Kein Kunde",-,-,-,-,-,-
+"Heumarkt 2, H13",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 1, L1",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 1, L3",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 3, L5",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 3, L7",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 5, L9",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 9, L11",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 9, L13",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 9, L15",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L2",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L4",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L6",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L8",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L10",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L12",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L14",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L16",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L18",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L20",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L22",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L24",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 6, L26",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 8, L28",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 8, L30",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 8, L32",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 8, L34",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 8, L36",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 8, L38",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen 8, L40",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße  32, M1",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 32, M3",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 32, M5",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 32, M7",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 30, M9",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 30, M11",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 28, M13",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 26, M15",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 24-22, M17",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 24-22, M19",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 24-22, M21",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 24-22, M23",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 24-22, M25",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 22, M27",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 22, M29",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 20, M31",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 20, M33",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 18, M35",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 16, M37",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 16, M39",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 16, M41",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 16, M43",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 14, M45",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 14, M47",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 12, M49",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 12, M51",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 12, M53",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 12, M55",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 12, M57",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 10, M59",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 10, M61",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 6, M63",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 6, M65",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 6, M67",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 4, M69",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 4, M71",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 2, M73",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 2, M75",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 2, M77",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 2, M79",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 21, M2",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 21, M4",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 21, M6",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 21, M8",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 21, M10",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 21, M12",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 19, M14",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 19, M16",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 19, M18",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 19, M20",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 19, M22",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 17, M24",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 17, M26",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 17, M28",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 15, M30",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 15, M32",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 13a, M34",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 13a, M36",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 11, M38",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 11, M40",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 9, M42",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 9, M44",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 7, M46",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 5, M48",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 5, M50",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 5, M52",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 3, M54",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 3, M56",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 1, M58",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 1, M60",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 1, M62",Frei,"Kein Kunde",-,-,-,-,-,-
+"Münsterstraße 1, M64",Frei,"Kein Kunde",-,-,-,-,-,-
+"Im Ort 2, OR1",Frei,"Kein Kunde",-,-,-,-,-,-
+"Im Ort 1-3, OR2",Frei,"Kein Kunde",-,-,-,-,-,-
+"Im Ort 5, OR3",Frei,"Kein Kunde",-,-,-,-,-,-
+"Im Ort 5, OR4",Frei,"Kein Kunde",-,-,-,-,-,-
+"Im Ort 6, OR5",Frei,"Kein Kunde",-,-,-,-,-,-
+"Im Ort 6, OR6",Frei,"Kein Kunde",-,-,-,-,-,-
+"Im Ort 11, OR7",Frei,"Kein Kunde",-,-,-,-,-,-
+"Im Ort 11, OR8",Frei,"Kein Kunde",-,-,-,-,-,-
+"Im Ort 11, OR9",Frei,"Kein Kunde",-,-,-,-,-,-
+"Im Ort 11, OR10",Frei,"Kein Kunde",-,-,-,-,-,-
+"Im Ort 4, OR11",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 1, O1",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 1, O3",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 1, O5",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 1, O7",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 3, O9",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 3, O11",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 3, O13",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 3, O15",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 3, O17",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 5, O19",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 5, O21",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 5, O23",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 5, O25",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 5, O27",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 5, O29",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 7a, O31",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 7a, O33",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 7a, O35",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 9, O37",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 11, O39",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 13, O41",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 13, O43",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 15, O45",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 15, O47",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 17, O49",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 17, O51",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 17, O53",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 21, O55",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 21, O57",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 21, O59",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 23, O61",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 23, O63",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 23, O65",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 25, O67",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 25, O69",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 27, O71",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 27, O73",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 27, O75",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 29, O77",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 31, O79",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 31, O81",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 33, O83",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 33, O85",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 35, O87",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 35, O89",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 37, O91",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 39, O93",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 39, O95",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 43, O97",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 43, O99",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 45, O101",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 45, O103",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 45, O105",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 45, O107",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 47, O109",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 49, O111",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 49, O113",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 51, O115",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 53, O117",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 53, O119",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 53, O121",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 53, O123",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 55, O125",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 55, O127",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 55, O129",Frei,"Kein Kunde",-,-,-,-,-,-
+"Heumarkt 4, O2",Frei,"Kein Kunde",-,-,-,-,-,-
+"Heumarkt 4, O4",Frei,"Kein Kunde",-,-,-,-,-,-
+"Heumarkt 4, O6",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 2a, O8",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 2, O10",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 2, O12",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 4, O14",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 6, O16",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 6, O18",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 8, O20",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 8, O22",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 10, O24",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 12, O26",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 12, O28",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 12, O30",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 12, O32",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 12, O34",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 12, O36",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 14, O38",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 14, O40",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 16, O42",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 18, O44",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 18, O46",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 20, O48",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 20, O50",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 22, O52",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 22, O54",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 24, O56",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 24, O58",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 24, O60",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 24, O62",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 24, O64",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 26, O66",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 26, O68",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 26, O70",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 28, O72",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 28, O74",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 28, O76",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 30, O78",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 30, O80",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 30, O82",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 32, O84",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 32, O86",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 32, O88",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 34, O90",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 34, O92",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 34, O94",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 36, O96",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 36, O98",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 38, O100",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 38, O102",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 40, O104",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 40, O106",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 42, O108",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 44, O110",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 44, O112",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 44, O114",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 46, O116",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 46, O118",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 46, O120",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 48, O122",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 48, O124",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 50, O126",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 50, O128",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 52, O130",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 52, O132",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 52, O134",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 54, O136",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 56, O138",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 56, O140",Frei,"Kein Kunde",-,-,-,-,-,-
+"Oststraße 56, O142",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen , L17",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen , L19",Frei,"Kein Kunde",-,-,-,-,-,-
+"In den Lampen , L21",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz  13, MA1",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 13, MA2",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 17, MA3",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 17, MA4",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 17, MA5",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 17, MA6",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 17, MA7",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 17, MA8",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 17, MA9",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 17, MA10",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 17, MA11",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 17, MA12",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 17, MA13",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 10, MA14",Frei,"Kein Kunde",-,-,-,-,-,-
+"Marktplatz 10, MA15",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt  4, K2",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 4, K4",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 6, K6",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 6, K8",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 8, K10",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 8, K12",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 8, K14",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 10, K16",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 12, K18",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 12, K20",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 16, K22",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 16, K24",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 18, K26",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 18, K28",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 20, K30",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 1, K1",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 1, K3",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 1, K5",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 1, K7",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 3, K9",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 3, K11",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 3, K13",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 5, K15",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 9, K17",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 9, K19",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 9, K21",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 11, K23",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 11, K25",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 11, K27",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 13, K29",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 13, K31",Frei,"Kein Kunde",-,-,-,-,-,-
+"Krickmarkt 15, K33",Verkauft,"Timothy Roth (Verein)",-,1683,-,-,"Dankeschön &lt;3","bezahlung ausstehend"
+"Krickmarkt 15, K35",Verkauft,"Timothy Roth (Verein)",-,1683,-,-,"Dankeschön &lt;3","bezahlung ausstehend"
+"Krickmarkt 17, K37",Verkauft,"Timothy Roth (Verein)",-,1683,-,-,"Dankeschön &lt;3","bezahlung ausstehend"
+"Krickmarkt 17, K39",Verkauft,"Tim Schlautmann (Privat)",Nein,1681,20€,,dwawda,"bezahlung ausstehend"

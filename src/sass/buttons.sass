@@ -1,0 +1,60 @@
+/* Button Template File */
+
+.btn-primary
+  color: #FFFFFF!important
+  font-size: 16px
+  background: $pink
+  border: 1px solid $pink
+  padding: 14px 26px
+  width: max-content
+  text-align: center
+  cursor: pointer
+  border-radius: 40px
+  display: inline-block
+
+  &:hover
+    @media screen and (min-width: 1300px)
+      color: $pink!important
+      background: #FFFFFF
+
+.btn-secondary
+  color: $pink!important
+  display: inline-block!important
+  font-size: 16px!important
+  background: transparent!important
+  border: 1px solid $pink!important
+  padding: 14px 26px!important
+  width: max-content!important
+  font-weight: 500!important
+  border-radius: 40px!important
+  text-align: center!important
+  cursor: pointer!important
+
+  &:hover
+    @media screen and (min-width: 1300px)
+      color: $pink!important
+      background: #FFFFFF!important
+
+.button-row
+  display: flex
+  flex-wrap: wrap
+  gap: 30px
+  margin: 40px 0
+
+.btn-tertiary
+  display: inline-block
+  border-radius: 30px
+  color: #FFFFFF
+  background: linear-gradient(102deg, #343E6F, #161B38)
+  padding: 16px 26px
+  font-weight: 400
+  font-size: 16px
+  max-width: max-content
+  cursor: pointer
+  border: none
+
+  &:hover
+    @media screen and (min-width: 1300px)
+      background: linear-gradient(102deg, #161B38, #343E6F)
+
+

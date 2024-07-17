@@ -1,0 +1,111 @@
+.bookingport_my_bookings
+  background: linear-gradient(166deg, #343E6F, #161B38) no-repeat, #161B38
+  background-attachment: fixed
+
+  main
+    padding-bottom: 100px
+
+    .wrapper
+      .invoice-link
+        margin: 35px 0 100px
+        display: flex
+        align-items: center
+        gap: 10px
+        font-size: 14px
+        color: #F59AA8
+        text-decoration: underline
+        @media screen and (min-width: 700px)
+          font-size: 16px
+
+        img
+          width: 25.5px
+          height: 25.5px
+
+      .no-stands-container
+        h3
+          font-size: 20px
+          font-weight: 500
+        .btn-primary
+          display: inline-block
+          margin-top: 15px
+
+      .user-stands
+        .single-stand
+          .upper-row
+            max-width: 1000px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            height: max-content
+
+            .delete-item
+              cursor: pointer
+              display: flex
+              gap: 5px
+              color: #8186A1
+              font-size: 14px
+              @media screen and (min-width: 900px)
+                font-size: 16px
+
+              img
+                width: 12px
+                height: auto
+
+          & > p
+            color: #F59AA8
+            font-size: 14px
+            @media screen and (min-width: 700px)
+              font-size: 16px
+
+          .checkbox-container
+            display: flex
+            align-items: flex-start
+            gap: 10px
+            margin-top: 20px
+
+            label
+              font-size: 14px
+              @media screen and (min-width: 700px)
+                font-size: 16px
+
+          .inner-content
+            position: relative
+            font-size: 14px
+            color: #FFFFFF
+            background: rgba(255, 255, 255, .4)
+            width: 100%
+            max-width: 1000px
+            padding: 20px
+            border-radius: 20px
+            box-shadow: 0 0 56px #00000029
+            display: flex
+            flex-direction: column
+            gap: 15px
+            @media screen and (min-width: 700px)
+              font-size: 16px
+
+            input[type="checkbox"]
+              width: unset
+              position: absolute
+              top: 20px
+              right: 20px
+
+            .row
+              display: flex
+              gap: 20px
+              align-items: center
+
+              p
+                margin: 0
+
+              .stand-marker-image
+                width: 19.2px
+
+              .stand-space-image
+                width: 15.2px
+
+              .stand-number-image
+                width: 19.1px
+
+              .stand-pavillon-image
+                width: 15.2px

@@ -1,0 +1,126 @@
+.bookingport_customer_requests
+
+  main
+    padding-bottom: 50px
+
+    .wrapper
+
+      #new-stand-button
+        display: inline-block
+        margin-top: 15px
+
+      #current-request-counter
+        color: #FFFFFF
+
+      h3
+        color: #f59aa8
+        font-weight: 500
+        text-transform: unset
+        font-size: 20px
+
+      a:not(.btn)
+        text-decoration: underline
+
+      .further-questions
+        background: linear-gradient(166deg, #343e6f, #161b38) no-repeat, #161b38
+        border-radius: 20px
+        box-shadow: 0 0 56px rgba(0, 0, 0, .161)
+        color: #FFFFFF
+        padding: 20px
+        margin: 50px 0
+        max-width: 1000px
+
+      .deleted-items
+        padding: 20px
+        border-radius: 20px
+        border: 1px solid #FFFFFF
+        max-width: max-content
+
+        h3
+          &:first-of-type
+            margin-top: 0
+
+          &:nth-of-type(2)
+            margin-bottom: 0
+
+      .trigger-deny-offer
+        display: inline-block
+        margin-top: 15px
+
+      .no-current-offers
+        padding: 25px
+        border: 1px solid #FFFFFF
+        border-radius: 20px
+        max-width: max-content
+
+      .ready-request
+        background: linear-gradient(166deg, #343e6f, #161b38) no-repeat, #161b38
+        border-radius: 20px
+        box-shadow: 0 0 56px rgba(0, 0, 0, .161)
+        color: #FFFFFF
+        display: flex
+        flex-direction: column
+        font-size: 14px
+        gap: 15px
+        max-width: 1000px
+        padding: 20px
+        position: relative
+        width: 100%
+        margin: 50px 0
+
+        .info-container
+          color: #F59AA8
+          font-size: 14px
+          font-style: italic
+          padding: 20px
+          border-radius: 20px
+          border: 1px solid #fff
+
+        h3
+          margin-bottom: 0
+
+        p
+          margin: 0
+
+        .button-row
+          gap: 15px
+
+      .open-requests
+
+        .inner-content
+          max-height: 500px
+          overflow-y: scroll
+          display: flex
+          flex-direction: column
+          gap: 35px
+
+          p
+            margin: 0
+
+          .single-request
+            background: #fff
+            border-radius: 20px
+            box-shadow: 0 0 56px rgba(0, 0, 0, .161)
+            color: #343e6f
+            display: flex
+            flex-direction: column
+            font-size: 14px
+            gap: 15px
+            max-width: 1000px
+            padding: 20px
+            position: relative
+            width: 100%
+
+            div
+              display: flex
+              gap: 10px
+
+              img
+                width: 20px
+                height: auto
+
+            textarea
+              border: none
+              font-size: 14px
+              color: #343e6f
+              font-family: $font

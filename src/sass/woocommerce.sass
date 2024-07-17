@@ -1,0 +1,143 @@
+/* Woocommerce Notices */
+
+.woocommerce-message, .woocommerce-error, .cart-empty, .woocommerce-info
+  max-width: 1000px
+  margin-top: 20px
+
+  &:not(.woocommerce-notices-wrapper .woocommerce-message, .woocommerce-notices-wrapper .woocommerce-error)
+    background: transparent
+    color: #FFFFFF
+    border: 1px solid #FFFFFF
+    @media screen and (min-width: 900px)
+      max-width: max-content
+
+    &:before
+      color: #FFFFFF
+
+.woocommerce-lost-password
+  .woocommerce-ResetPassword
+    display: flex
+    flex-direction: column
+
+  .woocommerce-password-strength
+    border-radius: 10px
+    margin-top: 20px
+
+  .woocommerce-Button
+    color: #FFFFFF !important
+    font-size: 16px !important
+    background: $pink !important
+    border: 1px solid $pink !important
+    padding: 14px 26px !important
+    width: max-content !important
+    text-align: center !important
+    cursor: pointer !important
+    border-radius: 40px !important
+    display: inline-block !important
+
+    &:hover
+      @media screen and (min-width: 1300px)
+        color: $pink !important
+        background: #FFFFFF !important
+
+.woocommerce-ResetPassword
+  span.required
+    color: #fff !important
+
+  .woocommerce-form-row--last
+
+    &:after
+      margin-top: 10px
+      content: "*) Pflichtfelder" !important
+
+.woocommerce-cart-form__cart-item.cart_item
+  &:not(&:first-of-type)
+    border-top: 1px solid #fff
+    padding-top: 10px
+    margin-top: 10px
+
+.woocommerce-billing-fields
+  label
+    .required
+      color: #fff!important
+
+.woocommerce-notices-wrapper
+  margin-top: 35px
+  @media screen and (min-width: 900px)
+    max-width: max-content
+
+  ul, .woocommerce-message
+    background: transparent
+    color: #FFFFFF
+    border: 1px solid #FFFFFF
+
+    &:before
+      color: #FFFFFF
+
+    &.woocommerce-error
+      border: 1px solid #FFFFFF
+
+      &:before
+        color: #FFFFFF
+
+/* Remove the product quantity */
+.quantity, .product-quantity, .product-thumbnail
+  display: none !important
+
+/* Remove the unnecessary woocommerce before element */
+.woocommerce
+  &:before
+    display: none
+
+  address
+    border: none !important
+
+.woocommerce-order-overview.woocommerce-thankyou-order-details.order_details
+  li
+    padding-bottom: 10px
+
+.woocommerce-order-details
+  .woocommerce-table
+    background: linear-gradient(141deg,#343e6f,#dc7988)
+    border-radius: 20px
+    padding: 10px 10px 30px
+    gap: 20px
+    tfoot
+      position: relative
+      top: 20px
+    .woocommerce-table__line-item
+      position: relative
+      margin-bottom: 20px
+      &:after
+        position: absolute
+        bottom: -10px
+        left: 10px
+        content: ""
+        height: 1px
+        width: calc(100% - 20px)
+        display: inline-block
+        background: #fff
+
+.woocommerce-customer-details
+  .woocommerce-customer-details--phone
+    &:before
+      content: ""!important
+      background: url("/assets/images/icons/phone-white.svg") no-repeat center
+      display: inline-block
+      width: 20px
+      height: 20px
+      background-size: 20px 20px
+  .woocommerce-customer-details--email
+    &:before
+      content: ""!important
+      background: url("/assets/images/icons/mail-white.svg") no-repeat center
+      display: inline-block
+      width: 20px
+      height: 20px
+      background-size: 20px 20px
+
+form.checkout
+  label
+    color: #F59AA8
+  .required
+    color: #F59AA8!important

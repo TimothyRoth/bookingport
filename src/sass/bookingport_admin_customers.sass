@@ -1,0 +1,140 @@
+.bookingport_admin_customers
+  background: linear-gradient(166deg, #343E6F, #161B38) no-repeat, #161B38
+  background-attachment: fixed
+
+  main
+    padding-bottom: 100px
+
+    .wrapper
+      .btn-secondary
+        &:hover
+          color: #F59AA8 !important
+          background: transparent !important
+
+      .customer-search-results
+        display: flex
+        flex-direction: column
+        gap: 20px
+
+        .open-additional-customer-information
+          position: absolute
+          right: 20px
+          top: 20px
+          width: 20.5px
+          height: 20.5px
+          cursor: pointer
+          z-index: 1
+
+          &:before
+            content: ""
+            position: absolute
+            top: -20px
+            /* Adjust the top and bottom values to extend the clickable area vertically */
+            bottom: -20px
+            left: -20px
+            /* Adjust the left and right values to extend the clickable area horizontally */
+            right: -20px
+
+          .stripe
+            position: absolute
+            width: 2.5px
+            height: 20.5px
+            background-color: #343E6F
+            left: 50%
+            top: 50%
+            transform: translate(-50%, -50%)
+
+            &.vertical
+              transform: translate(-50%, -50%) rotate(90deg)
+
+          &.active
+            .horizonal
+              opacity: 0
+
+        .user-row
+          overflow: hidden
+          position: relative
+          font-size: 14px
+          color: #343E6F
+          background: #FFFFFF
+          width: 100%
+          max-width: 1000px
+          padding: 20px
+          border-radius: 20px
+          box-shadow: 0 0 56px #00000029
+          display: flex
+          flex-direction: column
+          gap: 15px
+          @media screen and (min-width: 700px)
+            font-size: 16px
+
+          & > div:not(.hidden-user-information)
+            display: flex
+            gap: 20px
+
+            p
+              margin: 0
+
+            img
+              width: 20px
+
+          .hidden-user-information
+            display: flex
+            flex-direction: column
+            gap: 15px
+            max-height: 0
+            opacity: 0
+
+            & > div
+              display: flex
+              gap: 20px
+
+              p
+                margin: 0
+
+              img
+                width: 20px
+
+            &.active
+              max-height: 500px
+              opacity: 1
+
+            .active-status
+              &.Inaktiv
+                color: #AD5E6A
+
+              &.Aktiv
+                color: #5E6954
+
+            .redirect-to-customer-invoices
+              input[type="submit"]
+                background: transparent
+                font-family: "OpenSans"
+                outline: none
+                font-size: 16px
+                text-decoration: underline
+                color: #343e6f
+                border: none
+                padding: 0
+                cursor: pointer
+
+            .change-customer
+              margin-top: 20px
+              display: flex
+              flex-direction: column
+              gap: 15px
+
+              #change_customer
+                color: #fff
+
+                &:hover
+                  color: $pink
+
+              select
+                width: max-content
+                padding: 14px 22px
+                color: #707070
+                border-radius: 9px
+                font-family: $font
+                font-size: 14px
+                border: none

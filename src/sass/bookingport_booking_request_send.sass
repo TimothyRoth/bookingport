@@ -1,0 +1,32 @@
+.bookingport_booking_request_send
+  background: linear-gradient(164deg, #343E6F, #161B38) no-repeat, #161B38
+  background-attachment: fixed
+
+  main
+    .wrapper
+      h1
+        hyphens: auto
+
+      ul
+        margin-top: 35px
+        padding: 50px 0 100px
+        display: flex
+        flex-direction: column
+        gap: 10px
+        list-style-type: none
+
+        li:not(.menu-item-logout)
+          padding: 14px 26px
+          color: #FFFFFF
+          background: linear-gradient(99deg, #F59AA8, #DC7988) no-repeat, #DC7988
+          border-radius: 30px
+          max-width: 500px
+          width: 100%
+
+          &:hover
+            @media (min-width: 900px)
+              background: linear-gradient(99deg, #DC7988, #F59AA8) no-repeat, #DC7988
+
+          a
+            display: inline-block
+            width: 100%

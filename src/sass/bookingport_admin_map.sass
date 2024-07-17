@@ -1,0 +1,172 @@
+.bookingport_admin_map
+  background: linear-gradient(166deg, #343E6F, #161B38) no-repeat, #161B38
+  background-attachment: fixed
+
+  header
+    .header-content-container
+      display: none
+
+  main
+    .download-excel-modal
+      z-index: -1
+      padding: 20px
+      opacity: 0
+      position: fixed
+      top: 0
+      left: 0
+      background: rgba(0, 0, 0, 0.7)
+      display: flex
+      justify-content: center
+      align-items: center
+      text-align: center
+      width: 100vw
+      height: 100vh
+
+      &.active
+        z-index: 99
+        opacity: 1
+
+    .map
+      width: 100%
+      height: 500px
+      @media screen and (min-width: 1200px)
+        height: 700px
+
+    .wrapper
+      margin: unset
+      max-width: 1000px
+
+      .i-am-legend
+        padding: 0 10px
+        margin-top: 20px
+        display: flex
+        flex-direction: column
+        background: #fff
+        border-radius: 20px
+        box-shadow: 0 0 56px #00000029
+        @media screen and (min-width: 700px)
+          flex-direction: row
+          margin-top: 35px
+          width: max-content
+          gap: 10px
+
+        .row
+          padding: 10px
+          color: #343e6f
+          display: flex
+          align-items: center
+          gap: 10px
+          font-weight: 500
+
+          p
+            margin: 0
+            font-size: 14px
+
+          img
+            width: 15px
+            height: auto
+
+      .search-filter
+        margin: 20px 0
+
+      .booking-overview
+        display: flex
+        flex-direction: column
+        gap: 20px
+        margin-bottom: 20px
+        @media screen and (min-width: 900px)
+          justify-content: space-between
+          flex-direction: row
+          flex-wrap: wrap
+
+        p
+          margin: 0
+
+        #accessible
+          color: #DDF0CD
+
+        #reserved, #admin-reserved, #booked, #expired
+          color: #F59AA8
+
+      .btn-secondary
+        display: flex
+        gap: 10px
+
+        &:hover
+          color: #dc7988 !important
+          background: transparent !important
+
+      #filter-result-container
+        display: flex
+        flex-direction: column
+        gap: 20px
+        padding-top: 20px
+        padding-bottom: 100px
+
+        .single-result
+          .inner-content
+            position: relative
+            font-size: 14px
+            color: #343E6F
+            background: #FFFFFF
+            width: 100%
+            max-width: 1000px
+            padding: 20px
+            border-radius: 20px
+            box-shadow: 0 0 56px #00000029
+            display: flex
+            flex-direction: column
+            gap: 15px
+
+            &.reserved, &.booked, &.admin-reserved-requested, &.customer-requested, &.expired
+              background: rgba(146, 150, 169, 255)
+
+            @media screen and (min-width: 700px)
+              font-size: 16px
+
+            input[type="checkbox"]
+              width: unset
+              position: absolute
+              top: 20px
+              right: 20px
+
+            .change-customer
+              a
+                text-decoration: underline !important
+
+            .redirect-to-customer-invoices
+              input[type="submit"]
+                background: transparent
+                font-family: "OpenSans"
+                outline: none
+                font-size: 16px
+                text-decoration: underline
+                color: #343e6f
+                border: none
+                padding: 0
+                cursor: pointer
+
+              &.invoice-id
+                input[type="submit"]
+                  position: relative
+                  right: 15px
+
+            .row
+              display: flex
+              gap: 20px
+              align-items: center
+
+              p
+                margin: 0
+
+              .stand-marker-image
+                width: 19.2px
+
+              .stand-space-image
+                width: 15.2px
+
+              .stand-number-image
+                width: 19.1px
+
+              .stand-pavillon-image
+                width: 15.2px

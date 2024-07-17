@@ -1,0 +1,815 @@
+.bookingport_stand_booking
+  background: linear-gradient(166deg, #343E6F, #161B38) no-repeat, #161B38
+  background-attachment: fixed
+
+  main
+    .wrapper
+      .page-headline
+        margin-bottom: 35px
+
+      & > p
+        margin-bottom: 35px
+
+      .form
+        h3
+          text-transform: unset
+
+        .proceeded-customer-message
+          max-width: 1000px
+
+          p
+            padding: 20px
+            border: 1px solid #fff
+            border-radius: 20px
+
+        #current-request-counter
+          color: #f59aa8
+
+        .info-container
+          color: #F59AA8
+          font-size: 14px
+          font-style: italic
+          padding: 20px
+          border-radius: 20px
+          border: 1px solid #fff
+          max-width: 1000px
+
+          a
+            text-decoration: underline
+            color: #FFFFFF
+            font-weight: 700
+
+        .request-container
+
+          .inner-content
+            max-height: 500px
+            overflow: scroll
+            display: flex
+            flex-direction: column
+            gap: 35px
+
+            p
+              margin: 0
+
+            .single-request
+              background: #fff
+              border-radius: 20px
+              box-shadow: 0 0 56px rgba(0, 0, 0, .161)
+              color: #343e6f
+              display: flex
+              flex-direction: column
+              font-size: 14px
+              gap: 15px
+              max-width: 1000px
+              padding: 20px
+              position: relative
+              width: 100%
+
+              &.active
+                background: #def
+                @media screen and (min-width: 1400px)
+                  position: fixed
+                  top: 100px
+                  max-width: max-content
+                  z-index: 99
+                  right: 20px
+
+              div
+                display: flex
+                gap: 10px
+                flex-wrap: wrap
+
+                img
+                  width: 20px
+                  height: auto
+
+              textarea
+                border: none
+                font-size: 14px
+                background: transparent
+                color: #343e6f
+                font-family: $font
+
+        .select-stand-size-container
+          display: flex
+          flex-direction: column
+          gap: 20px
+
+          h3
+            margin: 0
+
+        .select-stand-pavillon-confirmation
+          margin: 35px 0
+
+        .select-customer-container
+          margin-top: 35px
+
+          &.is-edit
+            display: none
+
+          .customer-results
+            ul
+              background: #FFFFFF
+              padding-left: 0
+              border-radius: 9px
+              list-style-type: none
+              max-width: 1000px
+              display: flex
+              flex-direction: column
+              opacity: 0
+              max-height: 0
+              overflow-y: scroll
+
+              &.active
+                max-height: 250px
+                opacity: 1
+
+              li
+                padding: 10px 20px
+                color: #707070
+                cursor: pointer
+
+                &:hover
+                  background: #707070
+                  color: #FFFFFF
+
+                &:not(&:last-of-type)
+                  border-bottom: 1px solid #707070
+
+                &:first-of-type
+                  border-top-left-radius: 9px
+                  border-top-right-radius: 9px
+
+                &:last-of-type
+                  border-bottom-right-radius: 9px
+                  border-bottom-left-radius: 9px
+
+        .prefered-street-results
+          ul
+            background: #FFFFFF
+            padding-left: 0
+            border-radius: 9px
+            list-style-type: none
+            max-width: 1000px
+            display: flex
+            flex-direction: column
+            opacity: 0
+            max-height: 0
+            overflow: scroll
+
+            &.active
+              max-height: 250px
+              opacity: 1
+
+            li
+              padding: 10px 20px
+              color: #707070
+              cursor: pointer
+
+              &:hover
+                background: #707070
+                color: #FFFFFF
+
+              &:not(&:last-of-type)
+                border-bottom: 1px solid #707070
+
+              &:first-of-type
+                border-top-left-radius: 9px
+                border-top-right-radius: 9px
+
+              &:last-of-type
+                border-bottom-right-radius: 9px
+                border-bottom-left-radius: 9px
+
+        .stand-size-selection-wrapper
+          overflow: hidden
+
+        .stand-selection
+          margin-top: 35px
+          overflow: hidden
+
+        .radio-selection
+          display: flex
+          flex-direction: column
+          gap: 10px
+
+          p:first-of-type
+            label
+              color: #f78fb3
+              margin-left: 0
+
+          p
+            margin: 0
+            display: inline-block
+
+            label
+              color: #fff
+              margin-left: 5px
+
+        .stand-size
+          opacity: 0
+          max-height: 0
+
+          &.active
+            opacity: 1
+            max-height: 1000px
+
+          p:nth-of-type(2), p:nth-of-type(3)
+            position: relative
+            width: 100%
+            max-width: 1000px
+
+            &:after
+              position: absolute
+              right: 20px
+              color: #F59AA8
+              content: "m"
+              font-family: $font
+              top: 50%
+              transform: translateY(-50%)
+              font-size: 14px
+              @media screen and (min-width: 700px)
+                font-size: 16px
+
+          .show-for-domestic
+            position: relative
+            width: 100%
+            max-width: 1000px
+
+            &:not(&.no-currency)
+              &:after
+                position: absolute
+                right: 25px
+                content: "€"
+                font-family: $font
+                top: 50%
+                transform: translateY(-50%)
+                font-size: 16px
+                color: #ffffff
+
+        #agree_on_terms
+          max-width: 1000px
+
+        .remarks-container
+          margin-top: 35px
+
+          p
+            font-size: 14px
+            color: #F59AA8
+            margin-bottom: 10px
+            @media screen and (min-width: 700px)
+              font-size: 16px
+
+          textarea
+            width: 100%
+            max-width: 1000px
+            border-radius: 28px
+            min-height: 189px
+            color: #707070
+            font-family: $font
+            padding: 20px
+            font-size: 14px
+            @media screen and (min-width: 700px)
+              font-size: 16px
+
+        .checkbox-container
+          display: flex
+          align-items: flex-start
+          gap: 10px
+          margin-top: 20px
+
+          label
+            font-size: 14px
+            @media screen and (min-width: 700px)
+              font-size: 16px
+
+        .button-row
+          flex-direction: column
+          gap: 20px
+          margin: 35px 0 70px
+
+          .btn-primary
+            width: 100%
+            max-width: 1000px
+
+            &.disabled
+              pointer-events: none
+              opacity: .8
+              cursor: not-allowed
+
+        input[type="text"], input[type="password"], input[type="email"], input[type="number"], select
+          width: 100%
+          padding: 18px 24px
+          font-size: 14px
+          color: #707070
+          background: #FFFFFF
+          font-family: $font
+          border: none
+          border-radius: 28px
+          max-width: 1000px
+          @media screen and (min-width: 700px)
+            font-size: 16px
+
+        select
+          cursor: pointer
+
+          option
+            font-size: 14px
+            font-family: $font
+            @media screen and (min-width: 700px)
+              font-size: 16px
+
+        h3
+          font-size: 18px
+          font-weight: 400
+
+        p
+          display: flex
+          flex-direction: column
+          gap: 10px
+
+          label
+            color: #F59AA8
+            font-size: 14px
+            @media screen and (min-width: 700px)
+              font-size: 16px
+
+        .further-steps
+          opacity: 0
+          max-height: 0
+          overflow: hidden
+
+          &.active
+            opacity: 1
+            max-height: 1500px
+
+        .headline-stand-selection
+          margin-top: 35px
+
+        .select-request-container
+          &.active
+            margin-top: 30px
+
+            h3
+              max-width: max-content
+              border: 1px solid #fff
+              color: #f78fb3
+              font-weight: 500
+              font-size: 20px
+              padding: 10px 20px
+              border-radius: 20px
+
+        #selected-stands-container
+          display: flex
+          flex-direction: column
+          gap: 20px
+          margin: 50px 0
+
+          .remarks-container
+            p
+              font-size: 14px
+              color: #F59AA8
+              margin-bottom: 10px
+              @media screen and (min-width: 700px)
+                font-size: 16px
+
+            textarea
+              width: 100%
+              max-width: 1000px
+              border-radius: 28px
+              min-height: 189px
+              color: #707070
+              font-family: $font
+              padding: 20px
+              font-size: 14px
+              @media screen and (min-width: 700px)
+                font-size: 16px
+
+          .button-row
+            flex-direction: column
+            gap: 20px
+            margin: 35px 0 70px
+
+            .btn-primary
+              width: 100%
+              max-width: 1000px
+
+          .trigger-privat-stand-booking-modal
+            margin-top: 35px
+
+          .single-result
+            .upper-row
+              max-width: 1000px
+              display: flex
+              justify-content: space-between
+              align-items: center
+              height: max-content
+
+              .delete-item
+                cursor: pointer
+                display: flex
+                gap: 5px
+                color: #8186A1
+                font-size: 14px
+                @media screen and (min-width: 900px)
+                  font-size: 16px
+
+                img
+                  width: 12px
+                  height: auto
+
+            & > p
+              color: #F59AA8
+              font-size: 14px
+              @media screen and (min-width: 700px)
+                font-size: 16px
+
+            .checkbox-container
+              display: flex
+              align-items: flex-start
+              gap: 10px
+              margin-top: 20px
+
+              label
+                font-size: 14px
+                @media screen and (min-width: 700px)
+                  font-size: 16px
+
+            .inner-content
+              position: relative
+              font-size: 14px
+              color: #FFFFFF
+              background: rgba(255, 255, 255, .4)
+              width: 100%
+              max-width: 1000px
+              padding: 20px
+              border-radius: 20px
+              box-shadow: 0 0 56px #00000029
+              display: flex
+              flex-direction: column
+              gap: 15px
+              @media screen and (min-width: 700px)
+                font-size: 16px
+
+              input[type="checkbox"]
+                width: unset
+                position: absolute
+                top: 20px
+                right: 20px
+
+              .row
+                display: flex
+                gap: 20px
+                align-items: center
+
+                p
+                  margin: 0
+
+                .stand-marker-image
+                  width: 19.2px
+
+                .stand-space-image
+                  width: 15.2px
+
+                .stand-number-image
+                  width: 19.1px
+
+                .stand-pavillon-image
+                  width: 15.2px
+
+        #choose-stands-disclaimer
+          font-size: 14px
+          color: #F59AA8
+          @media screen and (min-width: 700px)
+            font-size: 16px
+
+        .trigger-privat-stand-booking-modal
+          width: 100%
+          max-width: 1000px
+
+        .faq-link
+          margin: 35px 0 100px
+          display: flex
+          align-items: center
+          gap: 10px
+          font-size: 14px
+          color: #F59AA8
+          text-decoration: underline
+          @media screen and (min-width: 700px)
+            font-size: 16px
+
+          img
+            width: 25.5px
+            height: 25.5px
+
+        .disclaimer
+          margin-bottom: 35px
+          font-size: 14px
+          @media screen and (min-width: 700px)
+            font-size: 16px
+
+/* Privat Stand Booking Modal */
+#privat-stand-booking-modal
+  opacity: 0
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: -1
+  background: linear-gradient(167deg, #343E6F, #161B38)
+  height: 100vh
+  overflow-y: scroll
+  padding: 35px
+
+  &.active
+    z-index: 10
+    opacity: 1
+
+  .close-stand-booking-modal
+    position: fixed
+    right: 20px
+    width: 50px
+    height: 50px
+    background: #dc7988
+    border-radius: 100%
+    cursor: pointer
+    top: 20px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    z-index: 11
+    .stripe
+      position: relative
+      height: 2px
+      background: #fff
+      width: 25px
+      margin: 2.5px 0
+      transform: translate(-50%, -50%)
+      &:nth-of-type(1)
+        transform: rotate(45deg)
+        top: 3.75px
+      &:nth-of-type(2)
+        bottom: 3.75px
+        transform: rotate(-45deg)
+
+  #map-overview
+    margin-top: 0
+
+  & > h3
+    color: #F59AA8
+    font-size: 25px
+    margin-top: 50px
+
+  #customer-stand-booking-map
+    width: 100%
+    height: 500px
+    border-radius: 20px
+    @media screen and (min-width: 1200px)
+      height: 700px
+
+  .map-explanation
+    color: #F59AA8
+    margin-top: 20px
+    font-size: 14px
+    font-style: italic
+    padding: 20px
+    border-radius: 20px
+    border: 1px solid #fff
+    max-width: max-content
+
+    a
+      color: #FFFFFF
+      font-weight: 700
+      text-decoration: underline
+
+  .customer-current-stand-status-info-container
+    display: flex
+    flex-direction: column
+    gap: 20px
+    padding: 10px
+    background: #fff
+    max-height: 0
+    opacity: 0
+    border-radius: 20px
+    box-shadow: 0 0 56px rgba(0, 0, 0, .161)
+    color: #343e6f
+    position: fixed
+    z-index: 3
+    right: 20px
+    top: 20px
+    width: max-content
+    @media screen and (min-width: 900px)
+      top: 115px
+      right: 40px
+
+    &.active
+      max-height: 1000px
+      opacity: 1
+
+    .currently-reserved-wrapper
+      h4
+        padding-top: 10px
+
+    .current-selection-wrapper, .currently-reserved-wrapper
+      display: flex
+      flex-direction: column
+      opacity: 0
+      max-height: 0
+
+      &.active
+        max-height: 1000px
+        opacity: 1
+
+      h4
+        margin-top: 0
+        padding-left: 10px
+
+    .show-current-selection, .show-current-reservations
+      display: flex
+      flex-direction: column
+      gap: 5px
+
+      .single-stand
+        display: flex
+        gap: 20px
+        align-items: center
+        font-size: 16px
+        width: max-content
+        padding: 0 10px
+        border-radius: 20px
+
+        img
+          width: 19.2px
+          height: auto
+
+      &:not(.show-current-reservations)
+        cursor: pointer
+
+        .single-stand
+          padding: 10px
+          border: 1px solid #343e6f
+          width: 100%
+
+          &.active
+            background: #def
+
+
+  .info-wrapper
+    display: flex
+    flex-direction: column
+    gap: 20px
+    @media screen and (min-width: 900px)
+      flex-direction: row
+      justify-content: space-between
+      align-items: center
+
+    .stand-filter
+      @media screen and (min-width: 900px)
+        position: relative
+        top: 5px
+
+    .i-am-legend
+      margin-top: 20px
+      padding: 0 10px
+      display: flex
+      flex-direction: column
+      background: #fff
+      border-radius: 20px
+      box-shadow: 0 0 56px #00000029
+      @media screen and (min-width: 700px)
+        flex-direction: row
+        gap: 10px
+        margin-top: 35px
+        width: max-content
+
+      .row
+        padding: 10px
+        color: #343e6f
+        display: flex
+        align-items: center
+        font-weight: 500
+        gap: 5px
+
+        p
+          margin: 0
+          font-size: 14px
+
+        img
+          width: 15px
+          height: auto
+
+  .form
+    padding: 0 0 200px
+    max-width: 1000px
+    font-size: 16px
+
+    #search-filter-wrapper
+      position: relative
+      margin-bottom: 35px
+
+      &:after
+        position: absolute
+        right: -1px
+        top: 0
+        content: ""
+        background: url('/assets/images/icons/search.svg') no-repeat, #F59AA8
+        background-size: 20px 20px
+        background-position: center
+        width: 43px
+        height: 43px
+        border-top-right-radius: 28px
+        border-bottom-right-radius: 28px
+      //@media screen and (min-width: 700px)
+      //  width: 46px
+      //  height: 46px --> unsure if its because of recent browser changes, but it doesnt work atm
+      input[type="text"], input[type="password"], input[type="email"]
+        width: 100%
+        padding: 12px 24px
+        font-size: 14px
+        color: #F59AA8
+        background: #FFFFFF
+        font-family: $font
+        border: none
+        border-radius: 28px
+        @media screen and (min-width: 700px)
+
+    #filter-prefered-street-result-container
+      display: flex
+      flex-direction: column
+      gap: 20px
+      overflow-y: scroll
+      max-height: 500px
+
+      .single-result
+        .inner-content
+          position: relative
+          font-size: 14px
+          color: #343E6F
+          background: #FFFFFF
+          width: 100%
+          max-width: 1000px
+          padding: 20px
+          border-radius: 20px
+          box-shadow: 0 0 56px #00000029
+          display: flex
+          flex-direction: column
+          gap: 15px
+
+          &.active
+            background: #DDEEFF
+
+            .select-stand-wrapper
+              &:after
+                content: "Stand entfernen" !important
+
+          @media screen and (min-width: 700px)
+            font-size: 16px
+
+          .select-stand-wrapper
+            order: 1
+            display: flex
+            justify-content: flex-end
+            gap: 5px
+            margin-top: 20px
+            @media screen and (min-width: 500px)
+              margin-top: 0
+              position: absolute
+              top: 20px
+              right: 20px
+
+            input[type="checkbox"]
+              width: unset
+              pointer-events: none
+
+            &:after
+              font-size: 14px
+              content: "Stand hinzufügen"
+              font-weight: 600
+              cursor: pointer
+
+          .row
+            display: flex
+            gap: 20px
+            align-items: center
+
+            p
+              margin: 0
+
+            .stand-marker-image
+              width: 19.2px
+
+            .stand-space-image
+              width: 15.2px
+
+            .stand-number-image
+              width: 19.1px
+
+            .stand-pavillon-image
+              width: 15.2px
+
+    #submit-stand-booking
+      margin-top: 35px
+      width: 100%
+      max-width: 1000px
+

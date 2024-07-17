@@ -1,0 +1,113 @@
+.post-type-archive-faq
+  background: linear-gradient(166deg, #343E6F, #161B38) no-repeat, #161B38
+  background-attachment: fixed
+
+  .wrapper
+    .content
+      max-width: 978px
+      display: flex
+      flex-direction: column
+      gap: 35px
+      padding-bottom: 75px
+
+      h1
+        margin-bottom: 0
+
+      article
+        position: relative
+        border-bottom: 2px solid rgba(245, 154, 168, 0.8)
+        padding-bottom: 20px
+
+        &:after
+          width: 14px
+          height: 9px
+          background: url("/assets/images/icons/arrow-up-pink.svg")
+          background-size: 14px 9px
+          content: ""
+          display: block
+          position: absolute
+          right: 0
+          top: 25px
+          transform: translateY(-50%)
+          transition: .5s ease-in-out
+          @media (min-width: 900px)
+            width: 17px
+            height: 12px
+            background: url("/assets/images/icons/arrow-up-pink.svg")
+            background-size: 17px 12px
+
+        h3
+          color: #F59AA8
+          cursor: pointer
+          font-weight: 400
+          font-size: 18px
+          position: relative
+          max-width: 216px
+          text-transform: unset
+          @media screen and (min-width: 500px)
+            max-width: unset
+            width: 95%
+
+        p
+          opacity: 0
+          max-height: 0
+          margin: 0
+          @media screen and (min-width: 900px)
+            max-width: 95%
+
+        &.active
+          &:after
+            transition: .3s ease-in-out
+            rotate: 180deg
+
+          p
+            opacity: 1
+            max-height: 1000px
+
+      .contact-teaser
+        width: 322px
+        background: linear-gradient(143deg, #343e6f, #dc7988) no-repeat
+        padding: 30px
+        border-radius: 20px
+        margin-top: 50px
+
+        .top
+          display: flex
+          flex-direction: column
+          align-items: center
+          gap: 30px
+
+          img
+            width: 152px
+
+          p
+            margin-top: 0
+            margin-bottom: 30px
+
+        .bottom
+          display: flex
+          flex-direction: column
+          gap: 20px
+
+          div
+            display: flex
+            gap: 15px
+
+            &:first-of-type
+              img
+                width: 22.5px
+
+            &:nth-of-type(2)
+              img
+                width: 25px
+
+            &:last-of-type
+              img
+                width: 23px
+
+            a
+              display: inline-block
+
+            p
+              margin: 0
+
