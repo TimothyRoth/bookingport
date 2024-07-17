@@ -2,11 +2,11 @@
 
 /**
  * Plugin Name: booking port marketplace for Woocommerce
- * Plugin URI: www.marketport.de
+ * Plugin URI: www.timothy-roth.de
  * Description: A plugin for managing marketplaces and bookings via WooCommerce. This plugin requires the prior installation of WooCommerce.
  * Version: 1.0.0
  * Author: Timothy Roth
- * Author URI: www.marketport.de
+ * Author URI: www.timothy-roth.de
  * License: GPL2
  * Text Domain: wp_bookingport
  * Domain Path: /languages
